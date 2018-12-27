@@ -1,3 +1,25 @@
+1. Add new board
+
+Preferences > Additional boards manager url: https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json
+Tools > Boards > Board Manager > Install Sanguino
+
+2. Burn bootloader
+
+https://youtu.be/fIl5X2ffdyo?t=335
+
+3. Include library
+
+Sketch > Include library > Manage Libraries > U8GLIB
+
+4. Upload Firmware
+
+Board: Sanguino
+Processor: ATmega1284 Atmega1284P 16Mhz
++ Port COM
+
+
+####################################################
+
 # Creality Ender Support
 
 This branch is a reverse-engineered version based on the unpublished firmware from Creality. It is **not** the authoritative source, but has been carefully re-built by looking at their firmware and inferring the base version and configuration they used. The basis is the firmware version from "Jul 31 2017 10:16:30". It is based on Marlin 1.0.1, because
